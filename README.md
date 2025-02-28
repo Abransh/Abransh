@@ -1,6 +1,6 @@
 # 👋 About Me
 Hi there, I'm Abransh Baliyan!<br><br>
-I'm a passionate software engineer, lifelong learner, and aspiring innovator with a deep-rooted interest in both technology and the wonders of physics. My journey in tech began with curiosity about the universe, which now fuels my drive to build cutting-edge solutions.<br>Curiosity-Driven: Ever since I first discovered the marvels of physics, I've been on a mission to understand how technology can unlock new possibilities. This innate curiosity pushes me to explore, learn, and innovate.<br>
+I'm a passionate software engineer, lifelong learner, and aspiring innovator with a deep-rooted interest in both technology and the wonders of physics. My journey in tech began with curiosity about the universe, which now fuels my drive to build cutting-edge solutions.<br>Curiosity-Driven: Ever since I first discovered the marvels of physics, I've been on a mission to understand how technology can unlock new possibilities. This innate curiosity pushes me to explore, learn, and innovate.<br><br>
 
 # 💻 Technical Skills <br>
 * C++ Development: Crafting high-performance applications with an emphasis on efficiency and scalability.<br>

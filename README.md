@@ -10,7 +10,10 @@ I'm a passionate software engineer, lifelong learner, and aspiring innovator wit
 * Collaborative & Agile: I thrive in environments where agile practices, pair programming, and continuous learning come together to solve challenging problems.<br><br>
 
 # What I'm Learning<br>
-<br>Technology is ever-evolving, and so is my journey:<br><br>Advanced C++ Techniques: Continuously enhancing my skills to write more efficient, maintainable code.<br>Scalable Distributed Computing: Experimenting with frameworks and architectures that power robust, large-scale systems.<br>Modern Full-Stack Practices: Expanding my expertise with the latest tools and methodologies in web development.<br>
+<br>Technology is ever-evolving, and so is my journey:<br><br>
+* Advanced C++ Techniques: Continuously enhancing my skills to write more efficient, maintainable code.<br>
+* Scalable Distributed Computing: Experimenting with frameworks and architectures that power robust, large-scale systems.<br>
+* Modern Full-Stack Practices: Expanding my expertise with the latest tools and methodologies in web development.<br>
 
 
 # 💻 Tech Stack:

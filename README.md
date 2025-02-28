@@ -21,8 +21,11 @@ I'm a passionate software engineer, lifelong learner, and aspiring innovator wit
 
 
 ## 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=Abransh&theme=dark&hide_border=false&include_all_commits=false&count_private=false) ![](https://nirzak-streak-stats.vercel.app/?user=Abransh&theme=dark&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=Abransh&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=Abransh&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact) ![](https://nirzak-streak-stats.vercel.app/?user=Abransh&theme=dark&hide_border=false)<br/>
+
+
+![](https://github-readme-stats.vercel.app/api?username=Abransh&theme=dark&hide_border=false&include_all_commits=false&count_private=false) 
+
 
 ### 🔝 Top Contributed Repo
 ![](https://github-contributor-stats.vercel.app/api?username=Abransh&limit=5&theme=dark&combine_all_yearly_contributions=true)

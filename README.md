@@ -241,10 +241,9 @@ class Abransh:
 </div>
 
 ---
-
 ## 📚 Currently Learning & Researching
-
 ```mermaid
+%%{init: {'theme':'dark', 'themeVariables': { 'darkMode':'true', 'primaryColor':'#3B82F6', 'primaryTextColor':'#fff', 'primaryBorderColor':'#60A5FA', 'lineColor':'#93C5FD', 'secondaryColor':'#1E3A8A', 'tertiaryColor':'#1E40AF'}}}%%
 mindmap
   root((Deep Learning))
     Neural Networks

@@ -194,18 +194,18 @@ class Abransh:
 ### 💬 [Chatify](https://github.com/Abransh) - Real-time Messaging Platform
 > **Tech**: React, TypeScript, WebSockets, Node.js, PostgreSQL, Redis
 
-- 🔴 Real-time messaging with **WebSocket** connections supporting 1K+ concurrent users
-- 🎤 Voice channels and screen sharing using **WebRTC**
-- ⚡ **Redis** for caching and pub/sub messaging patterns
-- 🎨 Discord-inspired UI with modern design achieving **95+ Lighthouse score**
+-  Real-time messaging with **WebSocket** connections supporting 1K+ concurrent users
+-  Voice channels and screen sharing using **WebRTC**
+-  **Redis** for caching and pub/sub messaging patterns
+-  Discord-inspired UI with modern design achieving **95+ Lighthouse score**
 
 ### 🧭 NAVIGO - Tourist Guide Platform
 > **Tech**: React, Node.js, Express, MongoDB, Google Maps API
 
-- 🗺️ Tourist-guide matching platform serving travelers in Milan
-- 📍 Real-time geolocation and intelligent matching algorithms
-- 🏗️ Scalable backend handling **10K+ daily requests**
-- 👥 Led technical team of 4 engineers as CTO
+-  Tourist-guide matching platform serving travelers in Milan
+-  Real-time geolocation and intelligent matching algorithms
+-  Scalable backend handling **10K+ daily requests**
+-  Led technical team of 4 engineers as CTO
 
 ---
 
@@ -261,11 +261,11 @@ mindmap
 ```
 
 ### 📖 Current Focus Areas:
-- 🧠 **Graph Neural Networks**: Spatial vs Spectral approaches, Message Passing frameworks
-- 🔬 **Neural Architecture Search**: AutoML and efficient architecture design
-- ⚡ **Model Optimization**: Inference optimization, quantization techniques
-- 🏗️ **MLOps**: Building production-grade ML pipelines at scale
-- 📊 **Distributed Training**: Multi-GPU and distributed deep learning
+-  **Graph Neural Networks**: Spatial vs Spectral approaches, Message Passing frameworks
+-  **Neural Architecture Search**: AutoML and efficient architecture design
+-  **Model Optimization**: Inference optimization, quantization techniques
+-  **MLOps**: Building production-grade ML pipelines at scale
+-  **Distributed Training**: Multi-GPU and distributed deep learning
 
 ---
 
@@ -276,10 +276,10 @@ mindmap
 From my early fascination with **physics** to exploring the mathematics behind **neural networks**, I'm driven by understanding how systems learn and adapt. Whether it's the backpropagation algorithm or the message-passing mechanism in GNNs, I find elegance in the mathematics that powers modern AI.
 
 ### My Philosophy:
-- 🔬 **Deep Understanding** over surface-level implementation
-- 🏗️ **Build to Scale** - production-ready, not just prototypes
-- 🤝 **Collaborate & Learn** - best ideas emerge from diverse perspectives
-- 🎯 **Impact First** - technology should solve real problems
+-  **Deep Understanding** over surface-level implementation
+-  **Build to Scale** - production-ready, not just prototypes
+-  **Collaborate & Learn** - best ideas emerge from diverse perspectives
+-  **Impact First** - technology should solve real problems
 
 ---
 

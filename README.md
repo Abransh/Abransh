@@ -185,11 +185,11 @@ class Abransh:
 ### 🤖 [JobSwipe](https://github.com/Abransh) - AI Job Application Automation
 > **Tech**: Next.js, TypeScript, Node.js, PostgreSQL, Prisma, OpenAI API, Browser Automation
 
-- 🎯 **99.9% accuracy** in automated job applications using AI agents
-- 🔄 Reverse-engineered major ATS platforms (Greenhouse, Lever) for API integration
-- 📄 Built sophisticated PDF-to-HTML conversion system with pixel-perfect formatting
-- 🤖 AI-powered resume editing that preserves formatting while enabling intelligent modifications
-- ⚡ Processes 100+ applications per day with automated form filling and document submission
+-  **99.9% accuracy** in automated job applications using AI agents
+-  Reverse-engineered major ATS platforms (Greenhouse, Lever) for API integration
+-  Built sophisticated PDF-to-HTML conversion system with pixel-perfect formatting
+-  AI-powered resume editing that preserves formatting while enabling intelligent modifications
+-  Processes 100+ applications per day with automated form filling and document submission
 
 ### 💬 [Chatify](https://github.com/Abransh) - Real-time Messaging Platform
 > **Tech**: React, TypeScript, WebSockets, Node.js, PostgreSQL, Redis

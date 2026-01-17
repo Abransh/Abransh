@@ -15,11 +15,11 @@
 I'm a **Deep Learning Engineer** and **Full-Stack Developer** with a strong focus on neural networks, AI systems, and deep tech. My journey began with **C++** and a fascination with physics, which evolved into a passion for understanding how neural networks process information and building AI-powered applications at scale.
 
 Currently diving deep into:
-- 🔬 **Neural Network Architectures** - CNNs, RNNs, Transformers, and their applications
-- 🕸️ **Graph Neural Networks (GNNs)** - Exploring spatial and spectral approaches
-- 🤖 **Large Language Models (LLMs)** - Fine-tuning, prompt engineering, and integration
-- ⚡ **High-Performance Computing** - Optimizing AI inference and training pipelines
-- 🏗️ **AI System Architecture** - Building scalable, production-ready ML systems
+-  **Neural Network Architectures** - CNNs, RNNs, Transformers, and their applications
+-  **Graph Neural Networks (GNNs)** - Exploring spatial and spectral approaches
+-  **Large Language Models (LLMs)** - Fine-tuning, prompt engineering, and integration
+-  **High-Performance Computing** - Optimizing AI inference and training pipelines
+-  **AI System Architecture** - Building scalable, production-ready ML systems
 
 ```python
 class Abransh:

@@ -177,36 +177,7 @@ class Abransh:
 
 </div>
 
----
 
-## 🚀 Featured Projects
-
-### 🤖 [JobSwipe](https://github.com/Abransh) - AI Job Application Automation
-> **Tech**: Next.js, TypeScript, Node.js, PostgreSQL, Prisma, OpenAI API, Browser Automation
-
--  **99.9% accuracy** in automated job applications using AI agents
--  Reverse-engineered major ATS platforms (Greenhouse, Lever) for API integration
--  Built sophisticated PDF-to-HTML conversion system with pixel-perfect formatting
--  AI-powered resume editing that preserves formatting while enabling intelligent modifications
--  Processes 100+ applications per day with automated form filling and document submission
-
-### 💬 [Chatify](https://github.com/Abransh) - Real-time Messaging Platform
-> **Tech**: React, TypeScript, WebSockets, Node.js, PostgreSQL, Redis
-
--  Real-time messaging with **WebSocket** connections supporting 1K+ concurrent users
--  Voice channels and screen sharing using **WebRTC**
--  **Redis** for caching and pub/sub messaging patterns
--  Discord-inspired UI with modern design achieving **95+ Lighthouse score**
-
-### 🧭 NAVIGO - Tourist Guide Platform
-> **Tech**: React, Node.js, Express, MongoDB, Google Maps API
-
--  Tourist-guide matching platform serving travelers in Milan
--  Real-time geolocation and intelligent matching algorithms
--  Scalable backend handling **10K+ daily requests**
--  Led technical team of 4 engineers as CTO
-
----
 
 ## 📊 GitHub Analytics
 

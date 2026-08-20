@@ -90,10 +90,11 @@ Everything above is something I've trained, shipped, or broken in production —
     3. Settings → uncheck "Hide coding activity from public profile"
     4. your username is in the URL of https://wakatime.com/@<username>
   ─────────────────────────────────────────────────────────────────────────
+  -->
 <div align="center">
-  <img height="180" alt="Coding activity" src="https://github-readme-stats.vercel.app/api/wakatime?username=WAKA_USERNAME&layout=compact&hide_border=true&langs_count=6&bg_color=05070E&title_color=E9EEF7&text_color=6B7688" />
+  <img height="180" alt="Coding activity" src="https://github-readme-stats.vercel.app/api/wakatime?username=abransh&layout=compact&hide_border=true&langs_count=6&bg_color=05070E&title_color=E9EEF7&text_color=6B7688" />
 </div>
--->
+
 
 <div align="center">
   <img alt="Contribution graph" src="https://github-readme-activity-graph.vercel.app/graph?username=Abransh&hide_border=true&bg_color=05070E&color=E9EEF7&title_color=E9EEF7&line=22D3EE&point=FBBF24&area=true&area_color=22D3EE" />
@@ -110,12 +111,14 @@ Everything above is something I've trained, shipped, or broken in production —
     2. "Sign in with Spotify" and authorize
     3. it hands you a UID — copy it into both places below
   ─────────────────────────────────────────────────────────────────────────
+  -->
 <div align="center">
-  <a href="https://open.spotify.com/user/SPOTIFY_UID">
-    <img alt="Now playing on Spotify" src="https://spotify-github-profile.kittinanx.com/api/view?uid=SPOTIFY_UID&cover_image=true&theme=novatorem&show_offline=false&background_color=05070e&interchange=true" />
+  <a href="https://spotify-github-profile.kittinanx.com/api/view?uid=31qrylngyu34web2n54agmmgxzla&redirect=true">
+    <img alt="Now playing on Spotify" 
+ <img src="https://spotify-github-profile.kittinanx.com/api/view?uid=31qrylngyu34web2n54agmmgxzla&cover_image=true&theme=default&show_offline=false&background_color=121212&interchange=false&profanity=false&hide_remaster=false&bar_color_cover=false">
   </a>
 </div>
--->
+
 
 <br>
 

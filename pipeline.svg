@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 200" width="1200" height="200" role="img" aria-label="Document parsing pipeline: ingest, vision encode, VLM, structured emit, consume">
+  <defs>
+    <radialGradient id="pulseGlow">
+      <stop offset="0%"  stop-color="#FFD9A8" stop-opacity="0.9"/>
+      <stop offset="45%" stop-color="#FFA94D" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#FFA94D" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <style>
+    .m    { font-family: ui-monospace, "SFMono-Regular", Menlo, Consolas, "Liberation Mono", monospace; }
+    .low  { fill:#59616E; }
+    .mute { fill:#7D8694; }
+    .ink  { fill:#E8E3D9; }
+
+    .node { fill:#0D1017; stroke:#232935; stroke-width:1.2; }
+    .n1 { animation: lit 6s ease-out infinite; animation-delay:0.61s }
+    .n2 { animation: lit 6s ease-out infinite; animation-delay:1.80s }
+    .n3 { animation: lit 6s ease-out infinite; animation-delay:3.00s }
+    .n4 { animation: lit 6s ease-out infinite; animation-delay:4.19s }
+    .n5 { animation: lit 6s ease-out infinite; animation-delay:5.39s }
+    @keyframes lit {
+      0%   { stroke:#5FD3BC; fill:#0F1A19 }
+      10%  { stroke:#5FD3BC; fill:#0F1A19 }
+      42%  { stroke:#232935; fill:#0D1017 }
+      100% { stroke:#232935; fill:#0D1017 }
+    }
+
+    .t1 { animation: brighten 6s ease-out infinite; animation-delay:0.61s }
+    .t2 { animation: brighten 6s ease-out infinite; animation-delay:1.80s }
+    .t3 { animation: brighten 6s ease-out infinite; animation-delay:3.00s }
+    .t4 { animation: brighten 6s ease-out infinite; animation-delay:4.19s }
+    .t5 { animation: brighten 6s ease-out infinite; animation-delay:5.39s }
+    @keyframes brighten {
+      0%,10% { fill:#5FD3BC }
+      42%,100% { fill:#E8E3D9 }
+    }
+
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important } }
+  </style>
+
+  <text class="m low" x="30" y="26" font-size="11.5" letter-spacing="2.5">PARSING PIPELINE &#160;/&#160; WHAT I ACTUALLY BUILD</text>
+
+  <g class="node n1"><rect x="30"  y="52" width="212" height="76" rx="7"/></g>
+  <g class="node n2"><rect x="262" y="52" width="212" height="76" rx="7"/></g>
+  <g class="node n3"><rect x="494" y="52" width="212" height="76" rx="7"/></g>
+  <g class="node n4"><rect x="726" y="52" width="212" height="76" rx="7"/></g>
+  <g class="node n5"><rect x="958" y="52" width="212" height="76" rx="7"/></g>
+
+  <g stroke="#232935" stroke-width="1.3" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M242 90 H262 M246 84 L253 90 L246 96"/>
+    <path d="M474 90 H494 M478 84 L485 90 L478 96"/>
+    <path d="M706 90 H726 M710 84 L717 90 L710 96"/>
+    <path d="M938 90 H958 M942 84 L949 90 L942 96"/>
+  </g>
+
+  <g class="m" text-anchor="middle" font-size="14.5" letter-spacing="1.6" font-weight="600">
+    <text class="ink t1" x="136"  y="86">01 &#160;INGEST</text>
+    <text class="ink t2" x="368"  y="86">02 &#160;PERCEIVE</text>
+    <text class="ink t3" x="600"  y="86">03 &#160;REASON</text>
+    <text class="ink t4" x="832"  y="86">04 &#160;EMIT</text>
+    <text class="ink t5" x="1064" y="86">05 &#160;GROUND</text>
+  </g>
+
+  <g class="m low" text-anchor="middle" font-size="11.5" letter-spacing="0.6">
+    <text x="136"  y="108">scans · pdfs · photos</text>
+    <text x="368"  y="108">patch encoder · dpi budget</text>
+    <text x="600"  y="108">vlm · lora adapters</text>
+    <text x="832"  y="108">html · otsl · latex · md</text>
+    <text x="1064" y="108">agents · rag · pipelines</text>
+  </g>
+
+  <circle r="15" fill="url(#pulseGlow)">
+    <animateMotion path="M18 90 H1182" dur="6s" repeatCount="indefinite"/>
+  </circle>
+  <circle r="4" fill="#FFD9A8">
+    <animateMotion path="M18 90 H1182" dur="6s" repeatCount="indefinite"/>
+  </circle>
+
+  <text class="m mute" x="30" y="168" font-size="12.5" letter-spacing="0.4">every cell accounted for, every row in order — structure fidelity is the product, not a side effect.</text>
+</svg>

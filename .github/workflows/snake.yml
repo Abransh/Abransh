@@ -22,7 +22,7 @@ jobs:
         with:
           github_user_name: Abransh
           outputs: |
-            dist/snake.svg?color_snake=FFA94D&color_dots=0A0C10,153A34,2A7A6B,44AB99,5FD3BC
+            dist/snake.svg?color_snake=FBBF24&color_dots=05070E,0E3A44,157F92,1CB3CC,22D3EE
 
       - name: Push to output branch
         uses: crazy-max/ghaction-github-pages@v4

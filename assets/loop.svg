@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 244" width="1200" height="244" role="img" aria-label="The training loop: data, architecture, objective, eval, serve, then back to data. A pulse travels the circuit.">
+<defs>
+<radialGradient id="pg"><stop offset="0%" stop-color="#FBBF24" stop-opacity="0.9"/><stop offset="100%" stop-color="#FBBF24" stop-opacity="0"/></radialGradient>
+</defs>
+<style>
+    .m { font-family: ui-monospace, "SFMono-Regular", Menlo, Consolas, "Liberation Mono", monospace }
+    .s { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, "Helvetica Neue", Arial, sans-serif }
+    .mute { fill:#6B7688 } .dim { fill:#3E4657 }
+    .bx { fill:#0A0E18; stroke:#171D2A; stroke-width:1.2; animation: lit 11.0s linear infinite }
+    .tt { fill:#E9EEF7; animation: brt 11.0s linear infinite }
+    @keyframes lit { 0%{stroke:#22D3EE;fill:#0B1620} 8.00%{stroke:#22D3EE;fill:#0B1620}
+      9.00%{stroke:#171D2A;fill:#0A0E18} 100%{stroke:#171D2A;fill:#0A0E18} }
+    @keyframes brt { 0%,8.00%{fill:#22D3EE} 9.00%,100%{fill:#E9EEF7} }
+    .k0 { animation-delay:0.000s }
+    .k1 { animation-delay:0.970s }
+    .k2 { animation-delay:1.939s }
+    .k3 { animation-delay:2.909s }
+    .k4 { animation-delay:3.879s }
+    @media (prefers-reduced-motion: reduce) { * { animation:none !important } }
+  </style>
+<text class="m dim" x="30" y="28" font-size="11" letter-spacing="3.2">THE LOOP I ACTUALLY RUN</text>
+<path d="M70 92 L1130 92" stroke="#2A3446" stroke-width="1.2" fill="none"/>
+<path d="M1130 92 L1150 92 A22 22 0 0 1 1172 114 L1172 170 A22 22 0 0 1 1150 192 L700 192" fill="none" stroke="#2A3446" stroke-width="1.2" stroke-dasharray="3 4"/>
+<path d="M500 192 L50 192 A22 22 0 0 1 28 170 L28 114 A22 22 0 0 1 50 92 L62 92" fill="none" stroke="#2A3446" stroke-width="1.2" stroke-dasharray="3 4"/>
+<path d="M56 86 L64 92 L56 98" fill="none" stroke="#2A3446" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+<text class="m dim" x="600" y="196" font-size="11" letter-spacing="2" text-anchor="middle">RETRAIN ON WHAT BROKE</text>
+<circle r="16" fill="url(#pg)"><animateMotion dur="11.0s" repeatCount="indefinite" path="M70 92 L1130 92 1130 92 L1150 92 A22 22 0 0 1 1172 114 L1172 170 A22 22 0 0 1 1150 192 L50 192 A22 22 0 0 1 28 170 L28 114 A22 22 0 0 1 50 92 L70 92"/></circle>
+<circle r="3.6" fill="#FBBF24"><animateMotion dur="11.0s" repeatCount="indefinite" path="M70 92 L1130 92 1130 92 L1150 92 A22 22 0 0 1 1172 114 L1172 170 A22 22 0 0 1 1150 192 L50 192 A22 22 0 0 1 28 170 L28 114 A22 22 0 0 1 50 92 L70 92"/></circle>
+<path d="M272 87 L279 92 L272 97" fill="none" stroke="#2A3446" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M488 87 L495 92 L488 97" fill="none" stroke="#2A3446" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M704 87 L711 92 L704 97" fill="none" stroke="#2A3446" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M920 87 L927 92 L920 97" fill="none" stroke="#2A3446" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
+<rect class="bx k0" x="70" y="54" width="196" height="76" rx="8"/>
+<text class="m tt k0" x="168" y="88" font-size="13.5" letter-spacing="1.8" font-weight="600" text-anchor="middle">DATA</text>
+<text class="m dim" x="168" y="110" font-size="11" letter-spacing="0.4" text-anchor="middle">corpora &#183; synthetic</text>
+<rect class="bx k1" x="286" y="54" width="196" height="76" rx="8"/>
+<text class="m tt k1" x="384" y="88" font-size="13.5" letter-spacing="1.8" font-weight="600" text-anchor="middle">ARCHITECTURE</text>
+<text class="m dim" x="384" y="110" font-size="11" letter-spacing="0.4" text-anchor="middle">encoders &#183; adapters</text>
+<rect class="bx k2" x="502" y="54" width="196" height="76" rx="8"/>
+<text class="m tt k2" x="600" y="88" font-size="13.5" letter-spacing="1.8" font-weight="600" text-anchor="middle">OBJECTIVE</text>
+<text class="m dim" x="600" y="110" font-size="11" letter-spacing="0.4" text-anchor="middle">sft &#183; lora &#183; rlvr</text>
+<rect class="bx k3" x="718" y="54" width="196" height="76" rx="8"/>
+<text class="m tt k3" x="816" y="88" font-size="13.5" letter-spacing="1.8" font-weight="600" text-anchor="middle">EVAL</text>
+<text class="m dim" x="816" y="110" font-size="11" letter-spacing="0.4" text-anchor="middle">metric vs. reality</text>
+<rect class="bx k4" x="934" y="54" width="196" height="76" rx="8"/>
+<text class="m tt k4" x="1032" y="88" font-size="13.5" letter-spacing="1.8" font-weight="600" text-anchor="middle">SERVE</text>
+<text class="m dim" x="1032" y="110" font-size="11" letter-spacing="0.4" text-anchor="middle">vllm &#183; quantization</text>
+<text class="s mute" x="30" y="230" font-size="12.5">the eval is the hard part &#8212; a model can score well and still be wrong in the way that matters.</text>
+</svg>

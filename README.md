@@ -1,101 +1,127 @@
 <div align="center">
-  <img src="./assets/header.svg" width="100%" alt="Abransh Baliyan — vision-language models for document understanding" />
+  <img src="./assets/header.svg" width="100%" alt="Abransh Baliyan — applied machine learning engineer" />
 </div>
 
 <div align="center">
   <sub>
-    <a href="https://infratex.io"><b>infratex.io</b></a> &nbsp;·&nbsp;
     <a href="https://www.linkedin.com/in/abransh-baliyan/">linkedin</a> &nbsp;·&nbsp;
     <a href="mailto:abranshbaliyan2807@gmail.com">email</a> &nbsp;·&nbsp;
+    <a href="https://infratex.io">infratex.io</a> &nbsp;·&nbsp;
     Milan, Italy
   </sub>
 </div>
 
 <br>
 
-I work on the unglamorous half of AI: getting real documents — scanned annual accounts, credit agreements, 40-year-old faxes — into a form a model can actually reason over without inventing a number. Started with deterministic geometry over glyphs, ended up training vision-language models after roughly seventy conversations with people whose job depends on this working.
+I train models. Mostly multimodal ones, and mostly on problems where the benchmark and the actual requirement have quietly drifted apart.
 
-Before that: C++, physics, and writing backprop from scratch in NumPy because reading about it wasn't enough.
+Started with C++, physics, and writing backprop from scratch in NumPy because reading about it wasn't enough. That's still the through-line: vision encoders, LoRA/QLoRA and RLVR post-training, quantized multi-GPU serving — and a stubborn interest in whether the metric a model scores well on measures the thing anyone actually cares about.
 
 <br>
 
 ## › now
 
-**Founder & CEO at [Infratex](https://infratex.io)** — document extraction and context infrastructure for LLMs and agents. Proprietary VLM parsing pipeline, paying customers in EU financial services, currently the sharp end of every technical decision I make.
+**Research.** Whether adapting a vision encoder during VLM fine-tuning helps or hurts turns out to depend on how well the *output format* was supported in pretraining. Six-format ladder, hash-locked protocol, pre-registered difference-in-differences endpoint — so the result can't be talked into existing after the fact. Writing it up for a NeurIPS workshop, then journal.
 
-**Research:** whether adapting a vision encoder during VLM fine-tuning helps or hurts depends on how well the *output format* is supported in pretraining — HTML and Markdown versus OTSL and permuted controls. Hash-locked protocol, pre-registered difference-in-differences endpoint. Writing it up for a NeurIPS workshop, then journal.
+**Production.** Multimodal models serving live traffic in EU financial services. Real latency budgets, real failure modes, real people who notice when a number is wrong.
 
-**Also:** evaluating early-stage deals at Titan Capital, and losing to better pilots in War Thunder.
+**Otherwise.** Reading training logs at unreasonable hours, and losing to better pilots in War Thunder.
 
 <br>
 
-## › what I build
-
 <div align="center">
-  <img src="./assets/pipeline.svg" width="100%" alt="Document parsing pipeline: ingest, perceive, reason, emit, ground" />
+  <img src="./assets/loop.svg" width="100%" alt="The training loop: data, architecture, objective, eval, serve — then retrain on what broke" />
 </div>
-
-The interesting failures live at stage 04. A model can score beautifully on structure metrics while quietly dropping half the content — which is a benchmark problem as much as a model problem, and is roughly what my current paper argues.
 
 <br>
 
 ## › selected work
 
+<div align="center">
+  <img src="./assets/latent.svg" width="100%" alt="Embedding space: perception, post-training, retrieval" />
+</div>
+
 | | | |
 |---|---|---|
-| **Infratex parsing engine** | VLM pipeline: page → faithful structured output, built for agent consumption | production, paying customers |
-| **Format × encoder ablation** | Does output-format pretraining support mediate vision-encoder adaptation? Six-format ladder, pre-registered endpoint | paper in progress |
-| **Biaffine formula extraction** | Transformer over glyph graphs, seven directed relation types, supervision derived from SyncTeX-aligned arXiv sources | research |
-| **Glyph point-cloud layout** | 600K-parameter DGCNN classifying regions from raw glyph geometry — no rasterization | research |
-| **Hybrid retrieval stack** | Dense + BM25 + LLM tree search, RRF fusion, cross-encoder rerank, late-interaction visual arm | production |
-| **JobSwipe** | Job application automation — Playwright, Fastify, reverse-engineered ATS flows | earlier work |
-
-<!-- Add a benchmark line here once you've settled the exact defensible wording. -->
+| **Encoder adaptation × output format** | Does unfreezing the vision encoder during VLM fine-tuning help? Conditioned on how well the target format was supported in pretraining. Six-format ladder, pre-registered endpoint | paper in progress |
+| **Biaffine relation transformer** | Transformer over graph-structured input, seven directed relation types, supervision derived programmatically from aligned source pairs | research |
+| **Point-cloud region classifier** | 600K-parameter DGCNN over raw 2-D geometry — no rasterization, no CNN, no pixels at any point | research |
+| **Multimodal retrieval stack** | Dense + BM25 with RRF fusion, cross-encoder rerank, late-interaction visual arm in the ColPali lineage | production |
+| **Post-training & serving** | LoRA/QLoRA, RLVR, GSPO, AWQ/GPTQ quantization, multi-GPU training, vLLM inference | production |
+| **Backprop from scratch** | NumPy, no autograd. The reason none of the above is a black box to me | where it started |
 
 <br>
 
-## › tools I actually reach for
+## › what I reach for
 
 ```
-modelling     pytorch · transformers · peft · ms-swift · vllm
-              lora/qlora · rlvr · gspo · quantization
+training      pytorch · transformers · peft · trl · ms-swift · deepspeed
+              lora/qlora · rlvr · gspo · dpo · mixed precision
 
-documents     vit patch encoders · otsl · teds · dgcnn
-              layout detection · synthetic corpora · ocr-free parsing
+multimodal    vit patch encoders · late interaction · dgcnn
+              geometry & layout models · synthetic corpora · ocr-free
 
-retrieval     hybrid dense+bm25 · rrf fusion · cross-encoder rerank
-              colpali-lineage late interaction · grounding gates
+serving       vllm · onnx · awq/gptq · continuous batching
+              multi-gpu · inference profiling · kv-cache budgeting
 
-systems       typescript · python · c++ · fastify · fastapi
+evaluation    pre-registered protocols · ablation design · teds
+              structure-aware metrics · failure taxonomies
+
+systems       python · typescript · c++ · fastapi · fastify
               postgres · redis · docker · github actions
-
-infra         multi-gpu training · inference optimization · onnx
 ```
 
-Everything above is something I've shipped or trained with, not something I've read the docs for.
+Everything above is something I've trained, shipped, or broken in production — not something I've read the docs for.
 
 <br>
 
 ## › signals
 
 <div align="center">
-  <img height="165" alt="GitHub stats" src="https://github-readme-stats.vercel.app/api?username=Abransh&show_icons=true&hide_border=true&include_all_commits=true&count_private=true&bg_color=0A0C10&title_color=E8E3D9&text_color=7D8694&icon_color=5FD3BC&ring_color=FFA94D" />
-  <img height="165" alt="Top languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Abransh&layout=compact&langs_count=6&hide_border=true&hide=html,css,scss&bg_color=0A0C10&title_color=E8E3D9&text_color=7D8694" />
+  <img height="165" alt="GitHub stats" src="https://github-readme-stats.vercel.app/api?username=Abransh&show_icons=true&hide_border=true&include_all_commits=true&count_private=true&bg_color=05070E&title_color=E9EEF7&text_color=6B7688&icon_color=22D3EE&ring_color=A78BFA" />
+  <img height="165" alt="Top languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Abransh&layout=compact&langs_count=6&hide_border=true&hide=html,css,scss&bg_color=05070E&title_color=E9EEF7&text_color=6B7688" />
 </div>
 
+<!--
+  ─────────────────────────────────────────────────────────────────────────
+  WAKATIME — uncomment once set up (~5 min), then replace WAKA_USERNAME
+    1. sign up at https://wakatime.com  (GitHub login works)
+    2. install the WakaTime plugin in your editor (VS Code: "WakaTime")
+    3. Settings → uncheck "Hide coding activity from public profile"
+    4. your username is in the URL of https://wakatime.com/@<username>
+  ─────────────────────────────────────────────────────────────────────────
 <div align="center">
-  <img alt="Contribution graph" src="https://github-readme-activity-graph.vercel.app/graph?username=Abransh&hide_border=true&bg_color=0A0C10&color=E8E3D9&title_color=E8E3D9&line=5FD3BC&point=FFA94D&area=true&area_color=5FD3BC" />
+  <img height="180" alt="Coding activity" src="https://github-readme-stats.vercel.app/api/wakatime?username=WAKA_USERNAME&layout=compact&hide_border=true&langs_count=6&bg_color=05070E&title_color=E9EEF7&text_color=6B7688" />
+</div>
+-->
+
+<div align="center">
+  <img alt="Contribution graph" src="https://github-readme-activity-graph.vercel.app/graph?username=Abransh&hide_border=true&bg_color=05070E&color=E9EEF7&title_color=E9EEF7&line=22D3EE&point=FBBF24&area=true&area_color=22D3EE" />
 </div>
 
 <div align="center">
   <img alt="Contribution snake" src="https://raw.githubusercontent.com/Abransh/Abransh/output/snake.svg" />
 </div>
 
+<!--
+  ─────────────────────────────────────────────────────────────────────────
+  SPOTIFY NOW-PLAYING — uncomment once set up (~5 min), then replace SPOTIFY_UID
+    1. go to https://spotify-github-profile.kittinanx.com/
+    2. "Sign in with Spotify" and authorize
+    3. it hands you a UID — copy it into both places below
+  ─────────────────────────────────────────────────────────────────────────
+<div align="center">
+  <a href="https://open.spotify.com/user/SPOTIFY_UID">
+    <img alt="Now playing on Spotify" src="https://spotify-github-profile.kittinanx.com/api/view?uid=SPOTIFY_UID&cover_image=true&theme=novatorem&show_offline=false&background_color=05070e&interchange=true" />
+  </a>
+</div>
+-->
+
 <br>
 
 ## › open to
 
-Deep collaborations on document AI, structured extraction, and evaluation methodology that actually measures fidelity. If you have a corpus that breaks every parser you've tried, I'd like to see it.
+Deep collaborations on multimodal modelling, post-training, and evaluation methodology that measures fidelity instead of vibes. If you have a task where every model you've tried scores well and is still wrong, I'd like to see it.
 
 <div align="center">
   <br>
